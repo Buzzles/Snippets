@@ -49,7 +49,7 @@
     <Compile Include="Shapes\Square.fs" />
     <Compile Include="Test.fs" />
     <Compile Include="Mutables.fs" />
-    <Compile Include="SquareLists.fs" />
+    <Compile Include="SumOfSquares.fs" />
     <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
   </ItemGroup>
