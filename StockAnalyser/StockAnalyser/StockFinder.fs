@@ -1,5 +1,5 @@
 ﻿#light
-module StockAnaylser
+module StockFinder
 open System.Net
 open System.IO
 open FSharp.Charting
