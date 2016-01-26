@@ -1,16 +1,16 @@
 ﻿#light
 
-module NumberPicker
+namespace LotteryNumberPicker
 
 type NumberPicker (maxRange, amountOfNumbers) =
     let numberRange = {1..maxRange}
     let rng = System.Random()
+    let GetRandomWithRange (x) =
+        let r = rng.Next(1, maxRange)
+        r
     member this.GetNumbers =
         let outarray =
             numberRange 
-            |> Seq.map (fun value -> this.GetRandomWithRange(value) )     
+            |> Seq.map (fun value -> GetRandomWithRange(value) )     
             |> Seq.take amountOfNumbers
         outarray
-    member this.GetRandomWithRange (x) =
-        let r = rng.Next(1, maxRange)
-        r
