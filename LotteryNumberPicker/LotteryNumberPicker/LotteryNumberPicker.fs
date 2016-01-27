@@ -13,4 +13,4 @@ type NumberPicker (maxRange, amountOfNumbers) =
             numberRange 
             |> Seq.map (fun value -> GetRandomWithRange(value) )  // essentially linq x => GetRandomWithRange(x)
             |> Seq.take amountOfNumbers
-        outarray
+        outarray    
