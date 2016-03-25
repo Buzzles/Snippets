@@ -47,11 +47,11 @@
     <Compile Include="Shapes\Shapes.fs" />
     <Compile Include="Shapes\Triangle.fs" />
     <Compile Include="Shapes\Square.fs" />
-    <Compile Include="Test.fs" />
     <Compile Include="Mutables.fs" />
     <Compile Include="SumOfSquares.fs" />
     <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
+    <Compile Include="Test.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
