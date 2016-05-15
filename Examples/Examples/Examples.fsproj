@@ -49,6 +49,8 @@
     <Compile Include="Shapes\Square.fs" />
     <Compile Include="Mutables.fs" />
     <Compile Include="SumOfSquares.fs" />
+    <Compile Include="PatternMatching.fs">
+    <Compile Include="Lists.fs">
     <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
     <Compile Include="Test.fs" />
