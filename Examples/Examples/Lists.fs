@@ -13,8 +13,8 @@ let appendExample =
 
 // Iter example
 let nop x : unit = 
-    x |> ignore
-    
+    ()
+
 let woo li =
     List.iter (fun x -> nop x) li
 
