@@ -18,7 +18,7 @@ namespace CSharpNumberPicker
             var staticNumPick = new ModuleLotteryNumberPicker.NumberPickerStatic(40, 6);
             var staticOutput = numPick.GetNumbers;
 
-            Console.WriteLine("C# Calling F# Namespace'd Lottery Number Picker");
+            Console.WriteLine("C# Calling F# Namespace'd Lottery Number Picker via Module");
             Console.WriteLine(string.Join(",", staticOutput));
             Console.ReadKey();
 
